@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "673f75e8a10a6c4f5adf7b51_2f1a12f7-f131-471e-a582-9438cf1be6b4",
+  "gitSyncId": "673f75e8a10a6c4f5adf7b51_ca6fe09e-5020-4a3d-9e5d-c373048a3a6e",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 450,
+          "bottomRow": 890,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 970,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1160,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 125,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "Directions",
+    "slug": "directions"
   }
 }

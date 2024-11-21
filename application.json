@@ -6,8 +6,20 @@
   "evaluationVersion": 2,
   "pages": [
     {
+      "id": "Directions2",
+      "isDefault": false
+    },
+    {
+      "id": "Directions",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ]
 }

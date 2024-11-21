@@ -1,0 +1,72 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "transparent",
+  "borderRadius": "12px",
+  "borderWidth": "0",
+  "bottomRow": 134,
+  "boxShadow": "2px 2px 0px rgba(0, 0, 0, 0.25)",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 1200,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "9g0upztcvp",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "0ajzhkhhlg",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 456.75,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "rn956u7n18",
+      "widgetName": "Canvas2Copy"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "21xp2e24qj",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 116,
+  "originalTopRow": 42,
+  "parentColumnSpace": 19.03125,
+  "parentId": "ebhzogds4w",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 14,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "0ajzhkhhlg",
+  "widgetName": "Container2"
+}

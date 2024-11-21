@@ -1,0 +1,56 @@
+{
+  "allowZoom": true,
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 56,
+  "boxShadow": "none",
+  "defaultMarkers": "[\n  {\n    \"lat\": {{parseFloat(Table1.selectedRow.latitude)}},\n    \"long\": {{parseFloat(Table1.selectedRow.longitude)}},\n    \"title\": {{Table1.selectedRow.name}}\n  }\n]",
+  "displayName": "Map",
+  "dynamicBindingPathList": [
+    {
+      "key": "mapCenter"
+    },
+    {
+      "key": "defaultMarkers"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "mapCenter"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCreateMarker"
+    },
+    {
+      "key": "onMarkerClick"
+    }
+  ],
+  "enableCreateMarker": true,
+  "enablePickLocation": true,
+  "enableSearch": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ddde7d1b.svg",
+  "isClickedMarkerCentered": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "rkcyvd9ua3",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 39,
+  "mapCenter": "{    \"lat\": {{Table1.selectedRow.latitude}},\n    \"long\": {{Table1.selectedRow.longitude}}\n\t\t}",
+  "onCreateMarker": "",
+  "onMarkerClick": "",
+  "parentColumnSpace": 19.5,
+  "parentId": "e9ka39c0lu",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 16,
+  "type": "MAP_WIDGET",
+  "version": 1,
+  "widgetId": "ro7qb8gq2d",
+  "widgetName": "Map1",
+  "zoomLevel": 35
+}

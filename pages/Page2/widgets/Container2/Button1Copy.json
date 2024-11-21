@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 66,
+  "boxShadow": "none",
+  "buttonColor": "#38AFF4",
+  "buttonVariant": "SECONDARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "send-to-map",
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{Map1.markers.lat != undefined}}",
+  "key": "o0yz3x9796",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 39,
+  "onClick": "{{navigateTo('www.google.com/maps/dir/' + Map1.selectedMarker.lat + ',' + Map1.selectedMarker.long + '/' + Table1.selectedRow.latitude + ',' + Table1.selectedRow.longitude, {}, 'NEW_WINDOW');}}",
+  "parentColumnSpace": 17.578125,
+  "parentId": "aq73jkewcz",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "text": "Directions from New Marker",
+  "topRow": 61,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "byuopq4n60",
+  "widgetName": "Button1Copy"
+}

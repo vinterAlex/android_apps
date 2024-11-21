@@ -1,0 +1,35 @@
+{
+  "animateLoading": true,
+  "borderRadius": "9999px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "#F6F7F8",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconName": "map-marker",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "egjnk1bn0q",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 2,
+  "parentColumnSpace": 19.5,
+  "parentId": "7ivi6zu084",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 4,
+  "topRow": 4,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "62gobckacl",
+  "widgetName": "IconButton1"
+}

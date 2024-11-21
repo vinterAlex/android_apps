@@ -1,0 +1,48 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#F6F7F8",
+  "borderRadius": "0px",
+  "bottomRow": 72,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "0.875rem",
+  "fontStyle": "BOLD,ITALIC",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": "{{Map1.selectedMarker?.lat == undefined}}",
+  "key": "34zkzg72gn",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 39,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 17.03125,
+  "parentId": "aq73jkewcz",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldTruncate": false,
+  "text": "Add a new marker to get directions from a different location",
+  "textAlign": "CENTER",
+  "textColor": "#F86A2B",
+  "topRow": 66,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "hn3dy55g7a",
+  "widgetName": "Text6"
+}

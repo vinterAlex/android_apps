@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultOptionValue": "Australia",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "optionLabel"
+    },
+    {
+      "key": "optionValue"
+    },
+    {
+      "key": "onDropdownOpen"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownOpen"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "7o9mz9zws5",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelStyle": "BOLD",
+  "labelText": "Country",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 14,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onDropdownOpen": "{{RefreshPage.startAutoRefresh()}}",
+  "onOptionChange": "{{GetCountriesGoogleSheet.run()}}",
+  "optionLabel": "name",
+  "optionValue": "id",
+  "parentColumnSpace": 17.03125,
+  "parentId": "rn956u7n18",
+  "parentRowSpace": 10,
+  "placeholderText": "Select country",
+  "renderMode": "CANVAS",
+  "rightColumn": 37,
+  "serverSideFiltering": false,
+  "sourceData": "{{GetCountriesGoogleSheet.data}}",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "kegdbp1e59",
+  "widgetName": "Select1"
+}
